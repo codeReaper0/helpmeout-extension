@@ -1,0 +1,22 @@
+{
+    "name": "Help Me Out",
+    "description": "A screen recording application for fostering a community of learning, helping and sharing",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "128": "./logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "./logo.png",
+            "32": "./logo.png",
+            "128": "./logo.png"
+        }
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["scripting", "tabs", "activeTab"]
+}
