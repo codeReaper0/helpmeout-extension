@@ -1,13 +1,12 @@
-import { useState } from 'react';
-import RootLayout from "./Pages/RootLayout"
-import './App.css'
+import {useState} from "react";
+import RootLayout from "./Pages/RootLayout";
 
 function App() {
-  return(
+  return (
     <div>
-    <RootLayout />
+      <RootLayout />
     </div>
-    )
+  );
 }
 
-export default App
+export default App;
