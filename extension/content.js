@@ -156,7 +156,7 @@ function onAccessApproved(stream) {
     if (!recorder) return console.log("No recorder");
     recorder.stop();
     let a = document.createElement("a");
-    a.href = "https://helpmeout-extension.vercel.app/details";
+    a.href = "https://helpmeout-extension.vercel.app/";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
