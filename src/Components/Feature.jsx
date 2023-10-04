@@ -1,11 +1,11 @@
-import img from "../assets/assets/feature_img.svg"
-import kite from "../assets/assets/circle.svg"
-import share from "../assets/assets/share.svg"
-import revisit from "../assets/assets/revisit.svg"
+import img from "../assets/assets/feature_img.svg";
+import kite from "../assets/assets/circle.svg";
+import share from "../assets/assets/share.svg";
+import revisit from "../assets/assets/revisit.svg";
 
 export default function Feature() {
   return (
-    <div className="relative p-8 mt-[8rem] space-y-10 items-center py-[10rem]  flex  gap-8 justify-between p-6 flex-wrap bg-white">
+    <div className="relative mt-[8rem] space-y-10 items-center py-[10rem]  flex  gap-8 justify-between p-6 flex-wrap bg-white">
       <div className="flex flex-col w-full py-4 bg-white gap-6 items-center justify-center">
         <p className="text-center text-black-header-color font-bold text-4xl">Features</p>
         <span className="text-center font-worksans text-grey-text-color text-md font-light">Key Highlights of Our Extension</span>
